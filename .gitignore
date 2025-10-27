@@ -39,9 +39,6 @@ datasets/
 *.npy
 *.npz
 
-# --- Model files (optional, large ones) ---
-# If your model is <100MB, you can remove this line to include it.
-models/*.h5
 
 # --- Streamlit cache ---
 .streamlit/
