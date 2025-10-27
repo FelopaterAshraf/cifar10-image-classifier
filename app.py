@@ -39,7 +39,7 @@ example_images = {
 cols = st.columns(5)
 for i, (label, url) in enumerate(example_images.items()):
     with cols[i % 5]:
-        st.image(url, caption=label, use_container_width=True)
+        st.image(url, caption=label, use_column_width=True)
 
 
 
