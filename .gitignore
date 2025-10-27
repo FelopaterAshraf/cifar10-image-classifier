@@ -1,0 +1,47 @@
+# --- Python / Virtual environment ---
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.tmp
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Jupyter / Notebooks cache ---
+.ipynb_checkpoints/
+
+# --- OS / System files ---
+.DS_Store
+Thumbs.db
+
+# --- Build / Packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- TensorFlow / Keras cache ---
+checkpoints/
+logs/
+saved_model/
+
+# --- Data and generated artifacts ---
+data/
+datasets/
+*.csv
+*.npy
+*.npz
+
+# --- Model files (optional, large ones) ---
+# If your model is <100MB, you can remove this line to include it.
+models/*.h5
+
+# --- Streamlit cache ---
+.streamlit/
