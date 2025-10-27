@@ -1,5 +1,5 @@
 # CIFAR-10 Image Classifier (Streamlit + TensorFlow)
-
+go try it : https://cifar10-image-classifier-dnaczpylopgc5s64fthwqn.streamlit.app/
 Train a CNN on CIFAR-10, test on images, and run a Streamlit web app.
 
 ## Setup (local)
